@@ -47,11 +47,7 @@ Twitter_Dev_Backend
 ## Middlewares
 - authMiddleware: Middleware to verify JWT tokens and authenticate users.
 
-## Installations
-- Clone the Repository
-  ```
-  git clone https://github.com/your-username/Twitter_Dev_Backend.git
-  cd Twitter_Dev_Backend
+
 
   ```
 - Install Dependencies
@@ -62,7 +58,7 @@ Twitter_Dev_Backend
 - Set Up Enviroment Variables
 ```
 PORT=3000
-MONGODB_URI=mongodb://localhost:27017/twitter_dev
+
 JWT_SECRET=your_jwt_secret_key
 AWS_ACCESS_KEY_ID=your_aws_access_key_id
 AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
@@ -76,9 +72,7 @@ AWS_REGION=your_aws_region
 - Access the Api
   ```
   http://localhost:3000/api/
-  ```
-## License
- This project is licensed under the MIT License - see the LICENSE file for details.
+ 
 
 
 
